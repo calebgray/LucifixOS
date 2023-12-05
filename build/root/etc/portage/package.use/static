@@ -1,0 +1,9 @@
+app-portage/portage-utils -static
+sys-fs/cryptsetup -udev
+sys-fs/lvm2 -udev -systemd
+sys-apps/pciutils -static-libs
+sys-fs/cryptsetup -udev -systemd
+net-misc/openssh -pam
+dev-libs/libusb -static-libs
+sys-apps/coreutils -static
+net-libs/libpcap -dbus

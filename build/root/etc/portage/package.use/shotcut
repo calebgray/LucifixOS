@@ -1,0 +1,2 @@
+media-libs/opencv -gtk3 -lto
+media-libs/opus custom-modes
