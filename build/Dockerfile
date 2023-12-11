@@ -5,7 +5,7 @@ COPY root /
 
 # bootstrap portage
 RUN mkdir /var/db/repos/gentoo
-RUN emerge-webrsync -q
+RUN emerge --sync
 RUN eselect news read --quiet all && eselect news purge
 
 # install satan's kernel
