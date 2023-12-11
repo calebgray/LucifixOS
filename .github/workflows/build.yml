@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build LucifixOS
-      run: docker build build --file Dockerfile --tag lucifixos:$(date +%s)
+      run: docker build build --file build/Dockerfile --tag lucifixos:$(date +%s)
