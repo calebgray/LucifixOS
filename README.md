@@ -3,8 +3,10 @@
 # LucifixOS
 Satan's Operating System
 
-# Installation
-- [ ] TODO: Add GitHub Releases
+# Building
+```sh
+docker build ./build
+```
 
 # Features
 - [x] Gentoo Linux 6.6.6
@@ -58,8 +60,3 @@ Satan's Operating System
 - [x] xfce-base/xfce4-meta
 - [x] xfce-extra/thunar-archive-plugin
 - [x] xfce-extra/xfce4-screenshooter
-
-# Building
-```sh
-docker build ./build
-```
