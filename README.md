@@ -3,6 +3,8 @@
 # LucifixOS
 Satan's Operating System
 
+![Linux Kernel](assets/kernelorg.png)
+
 # Building
 ```sh
 docker build ./build
