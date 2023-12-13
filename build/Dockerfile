@@ -19,6 +19,11 @@ RUN emaint sync -r brave-overlay
 RUN eselect repository enable steam-overlay
 RUN emaint sync -r steam-overlay
 
+# get around circular deps issue with gpm<->ncurses
+ENV USE -gpm
+RUN emerge sys-libs/ncurses
+ENV USE ""
+
 # install software
 RUN emerge app-admin/sudo
 RUN emerge app-arch/file-roller
