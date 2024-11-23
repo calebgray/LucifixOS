@@ -62,3 +62,6 @@ docker build ./build
 - [x] xfce-base/xfce4-meta
 - [x] xfce-extra/thunar-archive-plugin
 - [x] xfce-extra/xfce4-screenshooter
+
+# Optimized
+- [x] static binaries (including standard libraries)
